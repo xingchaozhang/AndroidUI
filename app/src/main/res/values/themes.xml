@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="UITheme" parent="Theme.MaterialComponents.DayNight.NoActionBar.Bridge">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/ContentPrimary</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimary</item>
+        <!-- Customize your theme here. -->
+        <item name="android:windowBackground">@color/BasePrimary</item>
+        <!-- Dialog -->
+        <item name="dialogTheme">@style/OKDialogTheme</item>
+        <item name="alertDialogTheme">@style/OKAlertDialogTheme</item>
+        <!-- Text  -->
+        <item name="titleTextColor">@color/ContentPrimary</item>
+        <!-- RTL Support -->
+        <item name="android:textViewStyle">@style/TextStyle</item>
+        <item name="editTextStyle">@style/EditTextStyle</item>
+        <item name="RegularFont">@font/font_alpha_regular</item>
+        <item name="MediumFont">@font/font_alpha_medium</item>
+
+        <!-- Input  -->
+        <item name="InputAppearance">@style/Input</item>
+
+        <item name="BoldFont">@font/font_alpha_bold</item>
+    </style>
+
+    <style name="Animation" parent="@android:style/Animation">
+
+    </style>
+
+    <style name="OKDialogTheme" parent="Theme.AppCompat.DayNight.Dialog" />
+
+    <style name="OKAlertDialogTheme" parent="Widget.AppCompat.Button.ButtonBar.AlertDialog" />
+
+    <!--DialogFragment-->
+    <style name="CustomDialog" parent="@android:style/Theme.Light">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowCloseOnTouchOutside">true</item>
+        <item name="android:scrollbars">none</item>
+    </style>
+
+    <style name="TextStyle" parent="android:style/Widget.TextView">
+        <item name="android:textDirection">ltr</item>
+    </style>
+
+    <style name="EditTextStyle" parent="@android:style/Widget.EditText">
+        <item name="android:textDirection">ltr</item>
+    </style>
+</resources>

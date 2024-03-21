@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="OKTextFont" />
+
+    <style name="OKTextFont.Regular">
+        <item name="android:fontFamily">?attr/RegularFont</item>
+        <item name="fontFamily">?attr/RegularFont</item>
+    </style>
+
+    <style name="OKTextFont.Medium">
+        <item name="android:fontFamily">?attr/MediumFont</item>
+        <item name="fontFamily">?attr/MediumFont</item>
+    </style>
+
+    <style name="OKTextFont.Bold">
+        <item name="android:fontFamily">?attr/BoldFont</item>
+        <item name="fontFamily">?attr/BoldFont</item>
+    </style>
+</resources>

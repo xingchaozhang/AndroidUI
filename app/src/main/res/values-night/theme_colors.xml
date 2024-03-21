@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Alpha-->
+    <color name="Alpha050">@color/Alpha050_Dark</color>
+    <color name="Alpha100">@color/Alpha100_Dark</color>
+    <color name="Alpha200">@color/Alpha200_Dark</color>
+    <color name="Alpha300">@color/Alpha300_Dark</color>
+    <color name="Alpha400">@color/Alpha400_Dark</color>
+    <color name="Alpha500">@color/Alpha500_Dark</color>
+    <color name="Alpha600">@color/Alpha600_Dark</color>
+    <color name="Alpha700">@color/Alpha700_Dark</color>
+    <color name="Alpha800">@color/Alpha800_Dark</color>
+    <color name="Alpha900">@color/Alpha900_Dark</color>
+
+    <!--Opacity-->
+    <color name="Opacity050">@color/Opacity050_Dark</color>
+    <color name="Opacity100">@color/Opacity100_Dark</color>
+    <color name="Opacity200">@color/Opacity200_Dark</color>
+
+    <!--GoGreen-->
+    <color name="GoGreen050">@color/GoGreen050_Dark</color>
+    <color name="GoGreen100">@color/GoGreen100_Dark</color>
+    <color name="GoGreen200">@color/GoGreen200_Dark</color>
+    <color name="GoGreen300">@color/GoGreen300_Dark</color>
+    <color name="GoGreen400">@color/GoGreen400_Dark</color>
+    <color name="GoGreen500">@color/GoGreen500_Dark</color>
+    <color name="GoGreen600">@color/GoGreen600_Dark</color>
+    <color name="GoGreen700">@color/GoGreen700_Dark</color>
+    <color name="GoGreen800">@color/GoGreen800_Dark</color>
+    <color name="GoGreen900">@color/GoGreen900_Dark</color>
+
+    <!--RubyRed-->
+    <color name="RubyRed050">@color/RubyRed050_Dark</color>
+    <color name="RubyRed100">@color/RubyRed100_Dark</color>
+    <color name="RubyRed200">@color/RubyRed200_Dark</color>
+    <color name="RubyRed300">@color/RubyRed300_Dark</color>
+    <color name="RubyRed400">@color/RubyRed400_Dark</color>
+    <color name="RubyRed500">@color/RubyRed500_Dark</color>
+    <color name="RubyRed600">@color/RubyRed600_Dark</color>
+    <color name="RubyRed700">@color/RubyRed700_Dark</color>
+    <color name="RubyRed800">@color/RubyRed800_Dark</color>
+    <color name="RubyRed900">@color/RubyRed900_Dark</color>
+
+    <!--Background-->
+    <color name="BackgroundLv1">@color/BackgroundLv1_Dark</color>
+    <color name="BackgroundLv2">@color/BackgroundLv2_Dark</color>
+    <color name="BackgroundLv3">@color/BackgroundLv3_Dark</color>
+    <color name="BackgroundLv4">@color/BackgroundLv4_Dark</color>
+
+    <!--Mask-->
+    <color name="MaskLv1">@color/MaskLv1_Dark</color>
+    <color name="MaskLv2">@color/MaskLv2_Dark</color>
+
+    <!--Hover-->
+    <color name="HoverLv1">@color/HoverLv1_Dark</color>
+    <!--Branded-->
+    <color name="BrandedPrimary">@color/BrandedPrimary_Dark</color>
+    <!--Base-->
+    <color name="BasePrimary">@color/BasePrimary_Dark</color>
+    <color name="BaseSecondary">@color/BaseSecondary_Dark</color>
+
+    <!--Surface-->
+    <color name="SurfacePrimary">@color/SurfacePrimary_Dark</color>
+    <color name="SurfaceSecondary">@color/SurfaceSecondary_Dark</color>
+    <color name="SurfacePressed">@color/SurfacePressed_Dark</color>
+    <color name="SurfaceDisabled">@color/SurfaceDisabled_Dark</color>
+
+    <!--Scrim-->
+    <color name="ScrimPrimary">@color/ScrimPrimary_Dark</color>
+
+    <!--Container-->
+    <color name="ContainerPrimary">@color/ContainerPrimary_Dark</color>
+    <color name="ContainerSecondary">@color/ContainerSecondary_Dark</color>
+    <color name="ContainerTertiary">@color/ContainerTertiary_Dark</color>
+    <color name="ContainerContrast">@color/ContainerContrast_Dark</color>
+    <color name="ContainerInverse">@color/ContainerInverse_Dark</color>
+
+    <!--Content-->
+    <color name="ContentPrimary">@color/ContentPrimary_Dark</color>
+    <color name="ContentSecondary">@color/ContentSecondary_Dark</color>
+    <color name="ContentTertiary">@color/ContentTertiary_Dark</color>
+    <color name="ContentContrast">@color/ContentContrast_Dark</color>
+    <color name="ContentDisabled">@color/ContentDisabled_Dark</color>
+    <color name="ContentInverse">@color/ContentInverse_Dark</color>
+
+    <!--Border-->
+    <color name="BorderPrimary">@color/BorderPrimary_Dark</color>
+    <color name="BorderSecondary">@color/BorderSecondary_Dark</color>
+    <color name="BorderContrast">@color/BorderContrast_Dark</color>
+    <color name="BorderSelected">@color/BorderSelected_Dark</color>
+
+    <!--SemanticNotice-->
+    <color name="SemanticNotice">@color/SemanticNotice_Dark</color>
+    <color name="SemanticPositive">@color/SemanticPositive_Dark</color>
+    <color name="SemanticNegative">@color/SemanticNegative_Dark</color>
+    <color name="SemanticInformative">@color/SemanticInformative_Dark</color>
+    <color name="SemanticHighlight">@color/SemanticHighlight_Dark</color>
+    <color name="SemanticNeutral">@color/SemanticNeutral_Dark</color>
+
+    <!--Preference-->
+    <color name="PreferenceNeutral">@color/PreferenceNeutral_Dark</color>
+    <color name="PreferenceProfit">@color/PreferenceProfit_Dark</color>
+    <color name="PreferenceLoss">@color/PreferenceLoss_Dark</color>
+
+    <!--Categorical-->
+    <color name="Category01">@color/Category01_Dark</color>
+    <color name="Category02">@color/Category02_Dark</color>
+    <color name="Category03">@color/Category03_Dark</color>
+    <color name="Category04">@color/Category04_Dark</color>
+    <color name="Category05">@color/Category05_Dark</color>
+</resources>

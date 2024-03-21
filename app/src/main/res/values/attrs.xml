@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--BaseEditText-->
+    <declare-styleable name="BaseEditText">
+        <!--文本可显示的最大值-->
+        <attr name="maxTextSize" format="integer" />
+        <!--文本可显示的最小值-->
+        <attr name="hintTextSize" format="integer" />
+        <!--文本每次缩放的值-->
+        <attr name="narrowTextSize" format="integer" />
+        <!--文本是否支持自动缩放-->
+        <attr name="autoZoomSize" format="boolean" />
+        <!--文本缩放显示的最小值-->
+        <attr name="minTextSize" format="integer" />
+    </declare-styleable>
+
+    <!--Add for shadow layout-->
+    <declare-styleable name="ShadowLayout">
+        <!--阴影的圆角大小-->
+        <attr name="ok_shadowCornerRadius" format="dimension" />
+        <!--阴影的扩散范围(也可以理解为扩散程度)-->
+        <attr name="ok_shadowSpread" format="dimension" />
+        <!--阴影颜色-->
+        <attr name="ok_shadowColor" format="color" />
+        <!--x轴的偏移量-->
+        <attr name="ok_shadowXOffset" format="dimension" />
+        <!--y轴的偏移量-->
+        <attr name="ok_shadowYOffset" format="dimension" />
+        <!--左边是否显示阴影-->
+        <attr name="ok_showLeftShadow" format="boolean" />
+        <!--右边是否显示阴影-->
+        <attr name="ok_showRightShadow" format="boolean" />
+        <!--上边是否显示阴影-->
+        <attr name="ok_showTopShadow" format="boolean" />
+        <!--下面是否显示阴影-->
+        <attr name="ok_showBottomShadow" format="boolean" />
+    </declare-styleable>
+
+    <!--Add for flow layout-->
+    <declare-styleable name="FlowLayout">
+        <!--should expand.-->
+        <attr name="flow_isExpand" format="boolean" />
+        <!--How many lines should it show at the same time.-->
+        <attr name="android:maxLines" />
+        <!--horizontal padding-->
+        <attr name="flowHorizontalSpacing" format="dimension" />
+        <!--vertical padding.-->
+        <attr name="flowVerticalSpacing" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="AttributeSet">
+        <!-- Duplicate attr name, rename to shapeStyle-->
+        <attr name="shapeStyle" format="enum">
+            <enum name="rectangle" value="0" />
+            <enum name="oval" value="1" />
+            <enum name="line" value="2" />
+            <enum name="ring" value="3" />
+        </attr>
+
+        <attr name="shapeSolidColor" format="color" />
+
+        <attr name="shapeSelectorPressedColor" format="color" />
+        <attr name="shapeSelectorDisableColor" format="color" />
+        <attr name="shapeSelectorNormalColor" format="color" />
+
+        <attr name="shapeCornersRadius" format="dimension" />
+
+        <attr name="shapeCornersTopLeftRadius" format="dimension" />
+        <attr name="shapeCornersTopRightRadius" format="dimension" />
+        <attr name="shapeCornersBottomLeftRadius" format="dimension" />
+        <attr name="shapeCornersBottomRightRadius" format="dimension" />
+
+        <attr name="shapeStrokeWidth" format="dimension" />
+        <attr name="shapeStrokeDashWidth" format="dimension" />
+        <attr name="shapeStrokeDashGap" format="dimension" />
+        <attr name="shapeStrokeColor" format="color" />
+
+        <attr name="shapeSizeWidth" format="dimension" />
+        <attr name="shapeSizeHeight" format="dimension" />
+
+        <attr name="shapeGradientAngle" format="enum">
+            <enum name="left_right" value="0" />
+            <enum name="bl_tr" value="45" />
+            <enum name="bottom_top" value="90" />
+            <enum name="br_tl" value="135" />
+            <enum name="right_left" value="180" />
+            <enum name="tr_bl" value="225" />
+            <enum name="top_bottom" value="270" />
+            <enum name="tl_br" value="315" />
+        </attr>
+
+        <attr name="shapeGradientCenterX" format="float" />
+        <attr name="shapeGradientCenterY" format="float" />
+        <attr name="shapeGradientGradientRadius" format="dimension" />
+        <attr name="shapeGradientStartColor" format="color" />
+        <attr name="shapeGradientCenterColor" format="color" />
+        <attr name="shapeGradientEndColor" format="color" />
+        <attr name="shapeGradientUseLevel" format="boolean" />
+
+        <attr name="shapeUseSelector" format="boolean" />
+
+        <attr name="shapeGradientType" format="enum">
+            <enum name="linear" value="0" />
+            <enum name="radial" value="1" />
+            <enum name="sweep" value="2" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="Input">
+        <attr name="type" format="enum">
+            <!--title inside-->
+            <enum name="inside" value="0" />
+            <!--title out side-->
+            <enum name="outside" value="1" />
+            <!--title out side-->
+            <enum name="inside2" value="2" />
+        </attr>
+        <!--True, only show bottom layer, false, otherwise.-->
+        <attr name="onlyBottomLayer" format="boolean" />
+        <!--Control the height of content-->
+        <attr name="contentHeight" format="enum">
+            <enum name="sm" value="36" />
+            <enum name="md" value="40" />
+            <enum name="lg" value="44" />
+            <enum name="xl" value="48" />
+            <enum name="xxl" value="72" />
+        </attr>
+        <!--To control the visibility of helper-->
+        <attr name="supportingText" format="enum">
+            <!--Helper is visible-->
+            <enum name="off" value="0" />
+            <!--Helper is invisible-->
+            <enum name="on" value="1" />
+        </attr>
+        <!--Layout for supporting, only supportingText's value is 1, will it useful.-->
+        <attr name="supportingLayoutId" format="reference" />
+        <attr name="state" format="enum">
+            <!--static is a key word, we can not use it, so use statics instead.-->
+            <enum name="statics" value="0" />
+            <enum name="active" value="1" />
+            <enum name="critical" value="2" />
+            <enum name="disable" value="3" />
+            <!--add for okxl.-->
+            <enum name="error" value="2" />
+        </attr>
+
+        <!--To set a label text for default label TextView-->
+        <attr name="labelText" format="string" />
+        <!--To set a label text for default error TextView-->
+        <attr name="errorText" format="string" />
+        <attr name="android:inputType" />
+        <attr name="android:hint" />
+        <attr name="android:text" />
+    </declare-styleable>
+
+</resources>

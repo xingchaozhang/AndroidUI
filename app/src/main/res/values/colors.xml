@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="transparent">#00000000</color>
+
+    <!--***************************** Basic Palette **************************** -->
+    <!--White Opacity-->
+    <color name="WhiteOpacity5">#FFFFFF</color>
+    <color name="WhiteOpacity10">#F0FFFFFF</color>
+    <color name="WhiteOpacity20">#E0FFFFFF</color>
+    <color name="WhiteOpacity30">#C7FFFFFF</color>
+    <color name="WhiteOpacity40">#C2FFFFFF</color>
+    <color name="WhiteOpacity50">#75FFFFFF</color>
+    <color name="WhiteOpacity60">#5CFFFFFF</color>
+    <color name="WhiteOpacity70">#30FFFFFF</color>
+    <color name="WhiteOpacity80">#1FFFFFFF</color>
+    <color name="WhiteOpacity90">#0FFFFFFF</color>
+
+    <!--Black Opacity-->
+    <color name="BlackOpacity5">#000000</color>
+    <color name="BlackOpacity10">#E6000000</color>
+    <color name="BlackOpacity20">#C2000000</color>
+    <color name="BlackOpacity30">#AD000000</color>
+    <color name="BlackOpacity40">#91000000</color>
+    <color name="BlackOpacity50">#6E000000</color>
+    <color name="BlackOpacity60">#42000000</color>
+    <color name="BlackOpacity70">#24000000</color>
+    <color name="BlackOpacity80">#14000000</color>
+    <color name="BlackOpacity90">#0A000000</color>
+
+    <!--Secondary Neutral-->
+    <color name="Neutral5">#FFFFFF</color>
+    <color name="Neutral10">#FAFAFA</color>
+    <color name="Neutral20">#F3F3F3</color>
+    <color name="Neutral30">#E6E6E6</color>
+    <color name="Neutral40">#D9D9D9</color>
+    <color name="Neutral50">#C7C7C7</color>
+    <color name="Neutral60">#B3B3B3</color>
+    <color name="Neutral70">#A7A7A7</color>
+    <color name="Neutral80">#999999</color>
+    <color name="Neutral90">#909090</color>
+    <color name="Neutral100">#808080</color>
+    <color name="Neutral110">#757575</color>
+    <color name="Neutral120">#666666</color>
+    <color name="Neutral130">#5B5B5B</color>
+    <color name="Neutral140">#4D4D4D</color>
+    <color name="Neutral150">#414141</color>
+    <color name="Neutral160">#383838</color>
+    <color name="Neutral170">#272727</color>
+    <color name="Neutral180">#1A1A1A</color>
+    <color name="Neutral190">#0D0D0D</color>
+    <color name="Neutral200">#000000</color>
+
+    <!--Supplementary-->
+    <!--Tangerine-->
+    <color name="Tangerine5">#FFEDCB</color>
+    <color name="Tangerine10">#FFD37D</color>
+    <color name="Tangerine20">#FFC452</color>
+    <color name="Tangerine30">#FFB117</color>
+    <color name="Tangerine40">#DB8F00</color>
+    <color name="Tangerine50">#A06900</color>
+    <color name="Tangerine60">#664300</color>
+
+    <!--Lemon-->
+    <color name="Lemon5">#FFFDC4</color>
+    <color name="Lemon10">#FFFA7A</color>
+    <color name="Lemon20">#FFF500</color>
+    <color name="Lemon30">#E5DD00</color>
+    <color name="Lemon40">#B2AB00</color>
+    <color name="Lemon50">#797400</color>
+    <color name="Lemon60">#5C5800</color>
+
+    <!--Neon Lime-->
+    <color name="NeonLime5">#EEFFCB</color>
+    <color name="NeonLime10">#D5FF7D</color>
+    <color name="NeonLime20">#BCFF2F</color>
+    <color name="NeonLime30">#9FE212</color>
+    <color name="NeonLime40">#7EBA00</color>
+    <color name="NeonLime50">#568000</color>
+    <color name="NeonLime60">#3D5C00</color>
+
+    <!--Neon Mint-->
+    <color name="NeonMint5">#CBFFE0</color>
+    <color name="NeonMint10">#7DFFB1</color>
+    <color name="NeonMint20">#24FF7B</color>
+    <color name="NeonMint30">#12E366</color>
+    <color name="NeonMint40">#00BC4B</color>
+    <color name="NeonMint50">#008535</color>
+    <color name="NeonMint60">#005C25</color>
+
+    <!--Bluebell-->
+    <color name="Bluebell5">#E6EAFF</color>
+    <color name="Bluebell10">#B8BFFF</color>
+    <color name="Bluebell20">#8A91FF</color>
+    <color name="Bluebell30">#5F62FF</color>
+    <color name="Bluebell40">#5043FF</color>
+    <color name="Bluebell50">#4C2FFF</color>
+    <color name="Bluebell60">#1D00D4</color>
+
+    <!--Lavender-->
+    <color name="Lavender5">#F2E8FF</color>
+    <color name="Lavender10">#DBBFFF</color>
+    <color name="Lavender20">#C496FF</color>
+    <color name="Lavender30">#AC6CFF</color>
+    <color name="Lavender40">#9543FF</color>
+    <color name="Lavender50">#7E1AFF</color>
+    <color name="Lavender60">#5600C5</color>
+
+    <!--Orchid-->
+    <color name="Orchid5">#FEE7EA</color>
+    <color name="Orchid10">#FFC1C9</color>
+    <color name="Orchid20">#FFA8B3</color>
+    <color name="Orchid30">#FF7888</color>
+    <color name="Orchid40">#F5384F</color>
+    <color name="Orchid50">#CD2438</color>
+    <color name="Orchid60">#9A1B2A</color>
+
+    <!--***************************** Core Palette **************************** -->
+
+    <!--******** BackGround ********-->
+    <!--Base Light-->
+    <color name="BasePrimary_Light">@color/Neutral5</color>
+    <color name="BaseSecondary_Light">@color/Neutral10</color>
+
+    <!--Base Dark-->
+    <color name="BasePrimary_Dark">@color/BackgroundLv1_Dark</color>
+    <color name="BaseSecondary_Dark">@color/Neutral180</color>
+
+    <!--Surface Light-->
+    <color name="SurfacePrimary_Light">@color/BlackOpacity90</color>
+    <color name="SurfaceSecondary_Light">@color/Neutral5</color>
+    <color name="SurfacePressed_Light">@color/BlackOpacity80</color>
+    <color name="SurfaceDisabled_Light">@color/BlackOpacity90</color>
+
+    <!--Surface Dark-->
+    <color name="SurfacePrimary_Dark">@color/WhiteOpacity90</color>
+    <color name="SurfaceSecondary_Dark">@color/WhiteOpacity90</color>
+    <color name="SurfacePressed_Dark">@color/WhiteOpacity80</color>
+    <color name="SurfaceDisabled_Dark">@color/WhiteOpacity90</color>
+
+    <!--Scrim Light-->
+    <color name="ScrimPrimary_Light">@color/BlackOpacity50</color>
+
+    <!--Scrim Dark-->
+    <color name="ScrimPrimary_Dark">@color/BlackOpacity30</color>
+
+    <!--Container Light-->
+    <color name="ContainerPrimary_Light">@color/Neutral5</color>
+    <color name="ContainerSecondary_Light">@color/Neutral10</color>
+    <color name="ContainerTertiary_Light">@color/Neutral5</color>
+    <color name="ContainerContrast_Light">@color/Neutral150</color>
+    <color name="ContainerInverse_Light">@color/Neutral190</color>
+
+    <!--Container Dark-->
+    <color name="ContainerPrimary_Dark">@color/Neutral170</color>
+    <color name="ContainerSecondary_Dark">@color/Neutral170</color>
+    <color name="ContainerTertiary_Dark">@color/Neutral160</color>
+    <color name="ContainerContrast_Dark">@color/Neutral150</color>
+    <color name="ContainerInverse_Dark">@color/Neutral10</color>
+
+    <!--Content Light-->
+    <color name="ContentPrimary_Light">@color/Neutral200</color>
+    <color name="ContentSecondary_Light">@color/Neutral160</color>
+    <color name="ContentTertiary_Light">@color/Neutral130</color>
+    <color name="ContentContrast_Light">@color/Neutral90</color>
+    <color name="ContentDisabled_Light">@color/BlackOpacity60</color>
+    <color name="ContentInverse_Light">@color/Neutral5</color>
+
+    <!--Content Dark-->
+    <color name="ContentPrimary_Dark">@color/Neutral5</color>
+    <color name="ContentSecondary_Dark">@color/Neutral30</color>
+    <color name="ContentTertiary_Dark">@color/Neutral60</color>
+    <color name="ContentContrast_Dark">@color/Neutral90</color>
+    <color name="ContentDisabled_Dark">@color/WhiteOpacity60</color>
+    <color name="ContentInverse_Dark">@color/Neutral200</color>
+
+    <!--Border Light-->
+    <color name="BorderPrimary_Light">@color/BlackOpacity80</color>
+    <color name="BorderSecondary_Light">@color/BlackOpacity70</color>
+    <color name="BorderContrast_Light">@color/Neutral10</color>
+    <color name="BorderSelected_Light">@color/Neutral200</color>
+
+    <!--Border Dark-->
+    <color name="BorderPrimary_Dark">@color/WhiteOpacity80</color>
+    <color name="BorderSecondary_Dark">@color/WhiteOpacity70</color>
+    <color name="BorderContrast_Dark">@color/Neutral200</color>
+    <color name="BorderSelected_Dark">@color/Neutral5</color>
+
+    <!--******** BackGround ********-->
+
+    <!--Semantic Light-->
+    <color name="SemanticNotice_Light">@color/Tangerine30</color>
+    <color name="SemanticPositive_Light">@color/GoGreen500_Light</color>
+    <color name="SemanticNegative_Light">@color/RubyRed500_Light</color>
+    <color name="SemanticInformative_Light">@color/Bluebell20</color>
+    <color name="SemanticHighlight_Light">@color/NeonLime20</color>
+    <color name="SemanticNeutral_Light">@color/Neutral200</color>
+
+    <!--Semantic Dark-->
+    <color name="SemanticNotice_Dark">@color/Tangerine30</color>
+    <color name="SemanticPositive_Dark">@color/GoGreen500_Dark</color>
+    <color name="SemanticNegative_Dark">@color/RubyRed500_Dark</color>
+    <color name="SemanticInformative_Dark">@color/Bluebell30</color>
+    <color name="SemanticHighlight_Dark">@color/NeonLime20</color>
+    <color name="SemanticNeutral_Dark">@color/Neutral5</color>
+
+    <!--Preference Light-->
+    <color name="PreferenceNeutral_Light">@color/BlackOpacity40</color>
+    <color name="PreferenceProfit_Light">@color/GoGreen500_Light</color>
+    <color name="PreferenceLoss_Light">@color/RubyRed500_Light</color>
+
+    <!--Preference Dark-->
+    <color name="PreferenceNeutral_Dark">@color/WhiteOpacity40</color>
+    <color name="PreferenceProfit_Dark">@color/GoGreen500_Dark</color>
+    <color name="PreferenceLoss_Dark">@color/RubyRed500_Dark</color>
+
+    <!--Categorical  Light-->
+    <color name="Category01_Light">@color/Bluebell20</color>
+    <color name="Category02_Light">@color/Tangerine30</color>
+    <color name="Category03_Light">@color/NeonLime20</color>
+    <color name="Category04_Light">@color/NeonMint30</color>
+    <color name="Category05_Light">@color/Orchid30</color>
+
+    <!--Categorical  Dark-->
+    <color name="Category01_Dark">@color/Bluebell30</color>
+    <color name="Category02_Dark">@color/Tangerine30</color>
+    <color name="Category03_Dark">@color/NeonLime20</color>
+    <color name="Category04_Dark">@color/NeonMint40</color>
+    <color name="Category05_Dark">@color/Orchid40</color>
+
+    <!--Alpha light-->
+    <color name="Alpha050_Light">#05080013</color>
+    <color name="Alpha100_Light">#14080013</color>
+    <color name="Alpha200_Light">#29080013</color>
+    <color name="Alpha300_Light">#52080013</color>
+    <color name="Alpha400_Light">#66080013</color>
+    <color name="Alpha500_Light">#8F080013</color>
+    <color name="Alpha600_Light">#A3080013</color>
+    <color name="Alpha700_Light">#B8080013</color>
+    <color name="Alpha800_Light">#CC080013</color>
+    <color name="Alpha900_Light">#E0080013</color>
+
+    <!--Alpha Dark-->
+    <color name="Alpha050_Dark">#14E0C8F9</color>
+    <color name="Alpha100_Dark">#1FE6CEFD</color>
+    <color name="Alpha200_Dark">#29F0E6F9</color>
+    <color name="Alpha300_Dark">#52F2E9FB</color>
+    <color name="Alpha400_Dark">#66F1E8FC</color>
+    <color name="Alpha500_Dark">#7AF2ECF9</color>
+    <color name="Alpha600_Dark">#8FF2ECF9</color>
+    <color name="Alpha700_Dark">#A3F5EDFC</color>
+    <color name="Alpha800_Dark">#CCF7F2FC</color>
+    <color name="Alpha900_Dark">#E0F9F7FD</color>
+
+    <!--Opacity Light-->
+    <color name="Opacity050_Light">#0A000000</color>
+    <color name="Opacity100_Light">#12000000</color>
+    <color name="Opacity200_Light">#24000000</color>
+
+    <!--Opacity Dark-->
+    <color name="Opacity050_Dark">#0FFFFFFF</color>
+    <color name="Opacity100_Dark">#26FFFFFF</color>
+    <color name="Opacity200_Dark">#40FFFFFF</color>
+    <!-- GoGreen Light -->
+    <color name="GoGreen050_Light">#E9FCF0</color>
+    <color name="GoGreen100_Light">#D2F4DE</color>
+    <color name="GoGreen200_Light">#A5E9BE</color>
+    <color name="GoGreen300_Light">#78DE9D</color>
+    <color name="GoGreen400_Light">#4BD37D</color>
+    <color name="GoGreen500_Light">#31BD65</color>
+    <color name="GoGreen600_Light">#18A04A</color>
+    <color name="GoGreen700_Light">#127837</color>
+    <color name="GoGreen800_Light">#0C5025</color>
+    <color name="GoGreen900_Light">#052912</color>
+
+    <!-- GoGreen Dark -->
+    <color name="GoGreen050_Dark">#031509</color>
+    <color name="GoGreen100_Dark">#062B12</color>
+    <color name="GoGreen200_Dark">#0C5625</color>
+    <color name="GoGreen300_Dark">#138037</color>
+    <color name="GoGreen400_Dark">#19AB4A</color>
+    <color name="GoGreen500_Dark">#25A750</color>
+    <color name="GoGreen600_Dark">#4CDE7D</color>
+    <color name="GoGreen700_Dark">#79E69D</color>
+    <color name="GoGreen800_Dark">#A5EFBE</color>
+    <color name="GoGreen900_Dark">#D2F7DE</color>
+
+    <!-- RubyRed Light -->
+    <color name="RubyRed050_Light">#FFF8F9</color>
+    <color name="RubyRed100_Light">#FCDCE5</color>
+    <color name="RubyRed200_Light">#F9B9CA</color>
+    <color name="RubyRed300_Light">#F796B0</color>
+    <color name="RubyRed400_Light">#F07596</color>
+    <color name="RubyRed500_Light">#EB4B6D</color>
+    <color name="RubyRed600_Light">#C14062</color>
+    <color name="RubyRed700_Light">#91304A</color>
+    <color name="RubyRed800_Light">#602031</color>
+    <color name="RubyRed900_Light">#301019</color>
+
+    <!-- RubyRed Dark -->
+    <color name="RubyRed050_Dark">#18070B</color>
+    <color name="RubyRed100_Dark">#300E17</color>
+    <color name="RubyRed200_Dark">#601D2E</color>
+    <color name="RubyRed300_Dark">#902B44</color>
+    <color name="RubyRed400_Dark">#C03A5B</color>
+    <color name="RubyRed500_Dark">#CA3F64</color>
+    <color name="RubyRed600_Dark">#F76489</color>
+    <color name="RubyRed700_Dark">#F994AE</color>
+    <color name="RubyRed800_Dark">#F9B6C7</color>
+    <color name="RubyRed900_Dark">#FCDAE3</color>
+
+    <!--Text-->
+    <color name="TextWhite">@color/white</color>
+    <color name="TextBlack">@color/black</color>
+
+    <!--Background-->
+    <!--Background Light-->
+    <color name="BackgroundLv1_Light">#FFFFFF</color>
+    <color name="BackgroundLv2_Light">#F7F7F7</color>
+    <color name="BackgroundLv3_Light">#F2F2F2</color>
+    <color name="BackgroundLv4_Light">#424242</color>
+    <!--Background Dark-->
+    <color name="BackgroundLv1_Dark">#121212</color>
+    <color name="BackgroundLv2_Dark">#1A1A1A</color>
+    <color name="BackgroundLv3_Dark">#242424</color>
+    <color name="BackgroundLv4_Dark">#424242</color>
+
+    <!--System Color / fq-->
+    <color name="Positive">@color/GoGreen500</color>
+    <color name="Critical">@color/RubyRed500</color>
+
+    <!--Mask-->
+    <!--Light-->
+    <color name="MaskLv1_Light">#B3000000</color>
+    <color name="MaskLv2_Light">#66000000</color>
+
+    <!-- Background positive-->
+    <!--Dark-->
+    <color name="MaskLv1_Dark">#D9000000</color>
+    <color name="MaskLv2_Dark">#A6000000</color>
+
+    <!--Hover / Selected / Click-->
+    <!--Light-->
+    <color name="HoverLv1_Light">#0D000000</color>
+
+    <!--Dark-->
+    <color name="HoverLv1_Dark">#14FFFFFF</color>
+
+    <!--Branded-->
+    <!--Light-->
+    <color name="BrandedPrimary_Light">#BCFF2F</color>
+
+    <!--Dark-->
+    <color name="BrandedPrimary_Dark">#BCFF2F</color>
+</resources>

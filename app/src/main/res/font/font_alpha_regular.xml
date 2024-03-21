@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<font-family xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <!--100 to 900 font weight
+    100 - Thin
+    200 - Extra Light (Ultra Light)
+    300 - Light
+    400 - Normal
+    500 - Medium
+    600 - Semi Bold (Demi Bold)
+    700 - Bold
+    800 - Extra Bold (Ultra Bold)
+    900 - Black (Heavy)-->
+    <font
+        android:font="@font/harmony_sans_regular"
+        android:fontStyle="normal"
+        android:fontWeight="400"
+        app:font="@font/harmony_sans_regular"
+        app:fontStyle="normal"
+        app:fontWeight="400" />
+</font-family>

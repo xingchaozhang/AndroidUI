@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/tv_tips_message"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/tips_round_rect_bg"
+    android:gravity="center_vertical|start"
+    android:paddingHorizontal="12dp"
+    android:paddingVertical="8dp"
+    android:textColor="@color/ContentInverse"
+    tools:ignore="MissingDefaultResource" />

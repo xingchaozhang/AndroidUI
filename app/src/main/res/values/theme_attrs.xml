@@ -1,0 +1,598 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="UITheme">
+        <attr name="RegularFont" format="reference" />
+        <attr name="MediumFont" format="reference" />
+        <attr name="BoldFont" format="reference" />
+        <!--  Input Field  -->
+        <attr name="InputAppearance" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="OKTextViewSizeAppearance">
+        <attr name="ok_height" />
+        <attr name="android:textAppearance" />
+        <attr name="android:textSize" />
+        <attr name="cornerSize" />
+        <attr name="ok_paddingHorizontal" format="dimension" />
+        <attr name="ok_paddingVertical" format="dimension" />
+        <attr name="ok_compoundDrawableSize" format="dimension" />
+    </declare-styleable>
+
+    <!--                OKButton                -->
+    <declare-styleable name="OKButtonAppearance">
+        <!-- ===== Type ===== -->
+        <!-- Filled Neutral -->
+        <attr name="ok_button_filledNeutralNormalColor" format="color" />
+        <attr name="ok_button_filledNeutralDisableColor" format="color" />
+        <attr name="ok_button_filledNeutralPressedColor" format="color" />
+        <attr name="ok_button_filledNeutralTextColor" format="reference|color" />
+
+        <!-- Outlined Neutral  -->
+        <attr name="ok_button_outlinedNeutralPressedColor" format="color" />
+        <attr name="ok_button_outlinedNeutralDisabledColor" format="color" />
+        <attr name="ok_button_outlinedNeutralStrokeColor" format="reference|color" />
+        <attr name="ok_button_outlinedNeutralStrokeWidth" format="dimension" />
+        <attr name="ok_button_outlinedNeutralTextColor" format="reference|color" />
+
+        <!-- Faded Neutral  -->
+        <attr name="ok_button_fadedNeutralNormalColor" format="color" />
+        <attr name="ok_button_fadedNeutralDisableColor" format="color" />
+        <attr name="ok_button_fadedNeutralPressedColor" format="color" />
+        <attr name="ok_button_fadedNeutralTextColor" format="reference|color" />
+
+        <!-- Text Accent -->
+        <attr name="ok_button_textAccentNormalColor" format="color" />
+        <attr name="ok_button_textAccentDisableColor" format="color" />
+        <attr name="ok_button_textAccentPressedColor" format="color" />
+        <attr name="ok_button_textAccentTextColor" format="reference|color" />
+
+        <!-- Text Neutral -->
+        <attr name="ok_button_textNeutralNormalColor" format="color" />
+        <attr name="ok_button_textNeutralDisableColor" format="color" />
+        <attr name="ok_button_textNeutralPressedColor" format="color" />
+        <attr name="ok_button_textNeutralTextColor" format="reference|color" />
+
+        <!-- Filled Positive -->
+        <attr name="ok_button_filledPositiveNormalColor" format="color" />
+        <attr name="ok_button_filledPositiveDisableColor" format="color" />
+        <attr name="ok_button_filledPositivePressedColor" format="color" />
+        <attr name="ok_button_filledPositiveTextColor" format="reference|color" />
+
+        <!-- Filled Critical -->
+        <attr name="ok_button_filledCriticalNormalColor" format="color" />
+        <attr name="ok_button_filledCriticalDisableColor" format="color" />
+        <attr name="ok_button_filledCriticalPressedColor" format="color" />
+        <attr name="ok_button_filledCriticalTextColor" format="reference|color" />
+
+        <!-- Tertiary -->
+        <attr name="ok_button_tertiaryNormalColor" format="color" />
+        <attr name="ok_button_tertiaryDisableColor" format="color" />
+        <attr name="ok_button_tertiaryPressedColor" format="color" />
+        <attr name="ok_button_tertiaryTextColor" format="reference|color" />
+
+        <!-- Outlined Accent -->
+        <attr name="ok_button_outlinedAccentStrokeColor" format="reference|color" />
+        <attr name="ok_button_outlinedAccentStrokeWidth" format="dimension" />
+        <attr name="ok_button_outlinedAccentPressedColor" format="color" />
+        <attr name="ok_button_outlinedAccentTextColor" format="reference|color" />
+
+        <!-- ===== Button Size ===== -->
+        <attr name="ok_button_xxlgSize" format="reference" />
+        <attr name="ok_button_xlgSize" format="reference" />
+        <attr name="ok_button_lgSize" format="reference" />
+        <attr name="ok_button_mdSize" format="reference" />
+        <attr name="ok_button_sSize" format="reference" />
+        <attr name="ok_button_xsSize" format="reference" />
+        <attr name="ok_button_xxsSize" format="reference" />
+        <!-- TODO： Compat -->
+        <attr name="ok_button_56" format="reference" />
+        <attr name="ok_button_48" format="reference" />
+
+        <!-- ===== Loading type ===== -->
+        <attr name="ok_button_primaryLoading" format="reference" />
+        <attr name="ok_button_primaryWhiteLoading" format="reference" />
+        <attr name="ok_button_secondaryLoading" format="reference" />
+        <attr name="ok_button_secondaryFillLoading" format="reference" />
+
+        <!-- ===== Loading position ===== -->
+        <attr name="ok_button_loadingPosition" format="enum">
+            <enum name="start" value="0" />
+            <enum name="top" value="1" />
+            <enum name="end" value="2" />
+            <enum name="bottom" value="3" />
+        </attr>
+        <!-- ===== Loading filter color ===== -->
+        <attr name="ok_button_loadingFilterColor" format="boolean" />
+        <!-- ===== allow pill setting ===== -->
+        <attr name="ok_button_allowPillSetting" format="boolean" />
+
+        <!-- {@deprecated Primary blue}  -->
+        <attr name="ok_button_primaryBlueNormalColor" format="color" />
+        <attr name="ok_button_primaryBlueDisableColor" format="color" />
+        <attr name="ok_button_primaryBluePressedColor" format="color" />
+        <attr name="ok_button_primaryBlueTextColor" format="reference|color" />
+
+        <!-- {@deprecated Secondary fill}  -->
+        <attr name="ok_button_secondaryFillNormalColor" format="color" />
+        <attr name="ok_button_secondaryFillDisableColor" format="color" />
+        <attr name="ok_button_secondaryFillPressedColor" format="color" />
+        <attr name="ok_button_secondaryFillTextColor" format="reference|color" />
+    </declare-styleable>
+
+    <!--           OKBottomSheetDialog              -->
+    <attr name="dragIcon" format="reference" />
+    <attr name="dragHeight" format="dimension" />
+    <attr name="okbs_marginStart" format="dimension" />
+
+    <!--           OKSegmentedTab             -->
+    <declare-styleable name="OKSegmentedControlAppearance">
+        <attr name="ok_segment_radius" format="dimension" />
+        <attr name="ok_segment_background_color" format="color" />
+        <attr name="ok_segment_selected_color" format="color" />
+        <attr name="ok_segment_md_textAppearance" format="reference" />
+        <attr name="ok_segment_md_textSize" format="float" />
+        <attr name="ok_segment_sm_textAppearance" format="reference" />
+        <attr name="ok_segment_sm_textSize" format="float" />
+        <attr name="tabTextColor" />
+        <attr name="ok_segment_strokeWidth" format="dimension" />
+        <attr name="ok_segment_strokeColor" format="color" />
+        <attr name="ok_segment_md_tabPaddingHorizontal" format="dimension" />
+        <attr name="ok_segment_sm_tabPaddingHorizontal" format="dimension" />
+    </declare-styleable>
+
+    <!-- OKTabs -->
+    <declare-styleable name="OKTabsAppearance">
+        <attr name="tabTextColor" />
+
+        <attr name="tabs_lg_iconSize" format="dimension"/>
+        <attr name="tabs_sm_iconSize" format="dimension"/>
+        <attr name="tabs_xs_iconSize" format="dimension"/>
+
+        <attr name="tabs_lg_iconTextMargin" format="dimension"/>
+        <attr name="tabs_sm_iconTextMargin" format="dimension"/>
+        <attr name="tabs_xs_iconTextMargin" format="dimension"/>
+
+        <attr name="tabs_header_textSize" format="dimension"/>
+        <attr name="tabs_lg_textSize" format="dimension"/>
+        <attr name="tabs_sm_textSize" format="dimension"/>
+        <attr name="tabs_xs_textSize" format="dimension"/>
+    </declare-styleable>
+
+    <declare-styleable name="OKHeightAppearance">
+        <attr name="ok_height" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="OKWidthAppearance">
+        <attr name="ok_width" format="dimension" />
+    </declare-styleable>
+
+    <attr name="ok_md_width" format="dimension" />
+    <attr name="ok_md_height" format="dimension" />
+
+    <attr name="ok_sm_width" format="dimension" />
+    <attr name="ok_sm_height" format="dimension" />
+
+    <!--    &lt;!&ndash; OKSwitch &ndash;&gt;-->
+    <!--    <declare-styleable name="OKSwitchAppearance">-->
+    <!--        <attr name="ok_largeButtonCompat" format="reference" />-->
+    <!--        <attr name="ok_" />-->
+    <!--    </declare-styleable>-->
+
+
+    <declare-styleable name="OKSearchBarAppearance">
+        <attr name="ok_height" />
+        <attr name="ok_searchIcon" format="reference" />
+        <attr name="ok_clearIcon" format="reference" />
+        <attr name="ok_searchIconTint" format="color" />
+        <attr name="ok_clearIconTint" format="color" />
+        <attr name="ok_iconSize" format="dimension" />
+        <attr name="ok_searchBackground" format="reference|color" />
+        <attr name="ok_searchCornerRadius" format="dimension" />
+        <attr name="ok_searchLargeHeight" format="dimension" />
+        <attr name="ok_searchMiddleHeight" format="dimension" />
+        <attr name="ok_searchPaddingStart" format="dimension" />
+        <attr name="android:textAppearance" />
+        <attr name="android:textColor" />
+        <attr name="android:textColorHint" />
+        <attr name="android:textSize" />
+    </declare-styleable>
+
+    <declare-styleable name="OKStateNotificationAppearance">
+        <attr name="ok_errorIcon" format="reference" />
+        <attr name="ok_errorIconTint" format="color" />
+        <attr name="ok_errorBackground" format="color|reference" />
+        <attr name="ok_errorHeaderTextColor" format="color" />
+        <attr name="ok_errorBodyTextColor" format="color" />
+        <!--Notification shadow-->
+        <attr name="ok_light_shadowXOffset" format="dimension" />
+        <attr name="ok_light_shadowYOffset" format="dimension" />
+        <!--This value may be useless-->
+        <attr name="ok_light_shadowBlur" format="dimension" />
+        <attr name="ok_light_shadowSpread" format="dimension" />
+        <attr name="ok_light_shadowColor" format="color" />
+        <attr name="ok_light_shadowColorAlpha" format="integer" />
+
+        <attr name="ok_night_shadowXOffset" format="dimension" />
+        <attr name="ok_night_shadowYOffset" format="dimension" />
+        <!--This value may be useless-->
+        <attr name="ok_night_shadowBlur" format="dimension" />
+        <attr name="ok_night_shadowSpread" format="dimension" />
+        <attr name="ok_night_shadowColor" format="color" />
+        <attr name="ok_night_shadowColorAlpha" format="integer" />
+
+        <attr name="ok_layer_color" format="color" />
+        <attr name="ok_layer_width" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="OKStateAppearance">
+        <attr name="ok_neutralDrawable" format="reference" />
+        <attr name="ok_neutralIconTint" format="color" />
+        <attr name="ok_neutralBackground" format="color|reference" />
+        <attr name="ok_neutralHeaderTextColor" format="color" />
+        <attr name="ok_neutralBodyTextColor" format="color" />
+        <attr name="ok_neutralEndIconTint" format="color" />
+
+        <attr name="ok_positiveDrawable" format="reference" />
+        <attr name="ok_positiveIconTint" format="color" />
+        <attr name="ok_positiveBackground" format="color|reference" />
+        <attr name="ok_positiveHeaderTextColor" format="color" />
+        <attr name="ok_positiveBodyTextColor" format="color" />
+
+        <attr name="ok_warningDrawable" format="reference" />
+        <attr name="ok_warningIconTint" format="color" />
+        <attr name="ok_warningBackground" format="color|reference" />
+        <attr name="ok_warningHeaderTextColor" format="color" />
+        <attr name="ok_warningBodyTextColor" format="color" />
+        <attr name="ok_warningEndIconTint" format="color" />
+
+        <attr name="android:titleTextAppearance" />
+        <attr name="android:textAppearance" />
+
+        <attr name="ok_backgroundColor" format="color" />
+        <attr name="ok_headerTextColor" format="color" />
+        <attr name="ok_bodyTextColor" format="color" />
+        <attr name="ok_actionTextColor" format="color" />
+
+        <attr name="ok_content_paddingStart" format="dimension" />
+        <attr name="ok_content_paddingEnd" format="dimension" />
+        <attr name="ok_content_paddingTop" format="dimension" />
+        <attr name="ok_content_paddingBottom" format="dimension" />
+
+        <attr name="ok_marginBetweenContent" format="dimension" />
+        <attr name="ok_stateRadius" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="OKTagAppearance">
+        <!--text size and padding.-->
+        <attr name="ok_largeTextSize" />
+        <attr name="ok_largePaddingHorizontal" format="dimension" />
+        <attr name="ok_largePaddingVertical" format="dimension" />
+        <attr name="ok_largeIconSize" format="dimension" />
+
+        <attr name="ok_middleTextSize" />
+        <attr name="ok_middlePaddingHorizontal" format="dimension" />
+        <attr name="ok_middlePaddingVertical" format="dimension" />
+        <attr name="ok_middleIconSize" format="dimension" />
+
+        <attr name="ok_smallTextSize" />
+        <attr name="ok_smallPaddingHorizontal" format="dimension" />
+        <attr name="ok_smallPaddingVertical" format="dimension" />
+        <attr name="ok_smallIconSize" format="dimension" />
+
+        <attr name="ok_xSmallTextSize" />
+        <attr name="ok_xSmallPaddingHorizontal" format="dimension" />
+        <attr name="ok_xSmallPaddingVertical" format="dimension" />
+        <attr name="ok_xSmallIconSize" format="dimension" />
+
+        <!--Text color and background color corresponding to the six states-->
+        <attr name="ok_neutralFadedTextColor" format="color" />
+        <attr name="ok_neutralFadedBackgroundTint" format="color" />
+        <attr name="ok_neutralFillTextColor" format="color" />
+        <attr name="ok_neutralFillBackgroundTint" format="color" />
+        <attr name="ok_neutralOutlineColor" format="color" />
+
+        <attr name="ok_accentFadedTextColor" format="color" />
+        <attr name="ok_accentFadedBackgroundTint" format="color" />
+        <attr name="ok_accentFillTextColor" format="color" />
+        <attr name="ok_accentFillBackgroundTint" format="color" />
+        <attr name="ok_accentOutlineColor" format="color" />
+
+        <attr name="ok_highlightFadedTextColor" format="color" />
+        <attr name="ok_highlightFadedBackgroundTint" format="color" />
+        <attr name="ok_highlightFillTextColor" format="color" />
+        <attr name="ok_highlightFillBackgroundTint" format="color" />
+        <attr name="ok_highlightOutlineColor" format="color" />
+
+        <attr name="ok_positiveFadedTextColor" format="color" />
+        <attr name="ok_positiveFadedBackgroundTint" format="color" />
+        <attr name="ok_positiveFillTextColor" format="color" />
+        <attr name="ok_positiveFillBackgroundTint" format="color" />
+        <attr name="ok_positiveOutlineColor" format="color" />
+
+        <attr name="ok_criticalFadedTextColor" format="color" />
+        <attr name="ok_criticalFadedBackgroundTint" format="color" />
+        <attr name="ok_criticalFillTextColor" format="color" />
+        <attr name="ok_criticalFillBackgroundTint" format="color" />
+        <attr name="ok_criticalOutlineColor" format="color" />
+
+        <attr name="ok_warningFadedTextColor" format="color" />
+        <attr name="ok_warningFadedBackgroundTint" format="color" />
+        <attr name="ok_warningFillTextColor" format="color" />
+        <attr name="ok_warningFillBackgroundTint" format="color" />
+        <attr name="ok_warningOutlineColor" format="color" />
+
+        <attr name="ok_categoryDefaultFadedTextColor" format="color" />
+        <attr name="ok_categoryDefaultFadedBackgroundTint" format="color" />
+
+        <attr name="ok_featureDefaultFadedTextColor" format="color" />
+        <attr name="ok_featureDefaultFadedBackgroundTint" format="color" />
+
+        <attr name="ok_statusSuccessFadedTextColor" format="color" />
+        <attr name="ok_statusSuccessFadedBackgroundTint" format="color" />
+
+        <attr name="ok_statusFailedFadedTextColor" format="color" />
+        <attr name="ok_statusFailedFadedBackgroundTint" format="color" />
+
+        <attr name="ok_statusPendingFadedTextColor" format="color" />
+        <attr name="ok_statusPendingFadedBackgroundTint" format="color" />
+
+        <attr name="ok_statusCancelledFadedTextColor" format="color" />
+        <attr name="ok_statusCancelledFadedBackgroundTint" format="color" />
+
+        <attr name="ok_statusNeutralFadedTextColor" format="color" />
+        <attr name="ok_statusNeutralFadedBackgroundTint" format="color" />
+
+        <attr name="ok_marketRedFadedTextColor" format="color" />
+        <attr name="ok_marketRedFadedBackgroundTint" format="color" />
+
+        <attr name="ok_marketGreenFadedTextColor" format="color" />
+        <attr name="ok_marketGreenFadedBackgroundTint" format="color" />
+
+        <!-- ===== rectangle radius ===== -->
+        <attr name="ok_rectangleRadius" format="float" />
+        <!-- ===== pill radius ===== -->
+        <attr name="ok_pillRadius" format="float" />
+        <!--true, Tag is outlined, only okxl has this feature.-->
+        <attr name="ok_tagStrokeWidth" format="dimension" />
+        <attr name="ok_tagIsOutline" format="boolean" />
+
+        <attr name="ok_tagTextAppearance" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="OKBottomSheetAppearance">
+        <attr name="ok_background" format="color|reference" />
+        <attr name="ok_navigationBarColor" format="color" />
+        <attr name="ok_dragBarLayout" format="reference" />
+        <attr name="ok_backSrc" format="reference" />
+        <attr name="ok_backTint" format="color" />
+        <attr name="ok_dismissSrc" format="reference" />
+        <attr name="ok_dismissTint" format="reference" />
+        <attr name="titleTextAppearance" />
+        <attr name="titleTextColor" />
+        <attr name="android:textSize" />
+        <attr name="ok_headerMinHeight" format="dimension" />
+        <attr name="ok_headerPaddingHorizontal" format="dimension" />
+        <attr name="ok_headerPaddingVertical" format="dimension" />
+        <attr name="ok_headerDividerColor" format="color" />
+        <attr name="ok_headerDividerHorizontalMargin" format="dimension" />
+        <attr name="ok_headerDividerSize" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="InputAppearance">
+        <!--content color-->
+        <attr name="content_staticColor" format="color" />
+        <attr name="content_activeColor" format="color" />
+        <attr name="content_criticalColor" format="color" />
+        <attr name="content_disableColor" format="color" />
+        <!--content layer color-->
+        <attr name="staticLayerColor" format="color" />
+        <attr name="activeLayerColor" format="color" />
+        <attr name="criticalLayerColor" format="color" />
+        <attr name="disableLayerColor" format="color" />
+        <attr name="staticOnlyBottomLayerColor" format="color" />
+        <attr name="disableOnlyBottomLayerColor" format="color" />
+
+        <!--default text color-->
+        <attr name="content_staticTextColor" format="color" />
+        <attr name="content_activeTextColor" format="color" />
+        <attr name="content_criticalTextColor" format="color" />
+        <attr name="content_disableTextColor" format="color" />
+        <attr name="content_hintTextColor" format="color" />
+
+        <attr name="content_labelOutTextColor" format="color" />
+        <attr name="content_labelInTextColor" format="color" />
+        <attr name="helper_textColor" format="color" />
+        <attr name="error_textColor" format="color" />
+        <attr name="cursorColor" format="color" />
+        <!--@deprecated-->
+        <attr name="content_bgColor" format="color" />
+
+        <attr name="labelSMTextSize" format="dimension" />
+        <attr name="contentSMTextSize" format="dimension" />
+        <attr name="errorSMTextSize" format="dimension" />
+        <attr name="content_marginSMHorizontal" format="dimension" />
+
+        <attr name="labelMDTextSize" format="dimension" />
+        <attr name="contentMDTextSize" format="dimension" />
+        <attr name="errorMDTextSize" format="dimension" />
+        <attr name="content_marginMDHorizontal" format="dimension" />
+
+        <attr name="labelLGTextSize" format="dimension" />
+        <attr name="contentLGTextSize" format="dimension" />
+        <attr name="errorLGTextSize" format="dimension" />
+        <attr name="content_marginLGHorizontal" format="dimension" />
+
+        <attr name="labelXLTextSize" format="dimension" />
+        <attr name="contentXLTextSize" format="dimension" />
+        <attr name="errorXLTextSize" format="dimension" />
+        <attr name="content_marginXLHorizontal" format="dimension" />
+
+        <attr name="labelHighLightLGTextSize" format="dimension" />
+        <attr name="contentHighLightLGTextSize" format="dimension" />
+        <attr name="errorHighLightLGTextSize" format="dimension" />
+        <attr name="onlyBottomLayerMarginHorizontal" format="dimension" />
+
+        <attr name="tint" format="color" />
+
+        <!--@deprecated use MDRadius instead.-->
+        <attr name="radius" format="dimension" />
+
+        <attr name="SMRadius" format="dimension" />
+        <attr name="MDRadius" format="dimension" />
+        <attr name="XLRadius" format="dimension" />
+        <attr name="LGRadius" format="dimension" />
+
+        <attr name="strokeWidth" format="dimension" />
+
+        <attr name="autoScale" format="boolean" />
+        <attr name="clearDrawable" format="reference" />
+        <attr name="clearDrawableSize" format="dimension" />
+        <attr name="clearMiniSize" format="dimension" />
+        <attr name="passwordChar" format="string" />
+
+        <!-- ===== Text Appearance ===== -->
+        <attr name="labelOutTextAppearance" format="reference" />
+        <attr name="labelInTextAppearance" format="reference" />
+        <attr name="contentTextAppearance" format="reference" />
+        <attr name="helperTextAppearance" format="reference" />
+        <attr name="errorTextAppearance" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="OKCompoundButtonHelper">
+        <attr name="ok_middleButtonCompat" format="reference" />
+        <attr name="ok_smallButtonCompat" format="reference" />
+        <attr name="ok_middleErrorButtonCompat" format="reference" />
+        <attr name="ok_smallErrorButtonCompat" format="reference" />
+        <attr name="ok_middleSize" format="dimension" />
+        <attr name="ok_smallSize" format="dimension" />
+        <attr name="ok_middleTextSize" />
+        <attr name="ok_middleTextAppearance" />
+        <attr name="ok_smallTextSize" />
+        <attr name="ok_middleButtonPadding" format="dimension" />
+        <attr name="ok_smallButtonPadding" format="dimension" />
+        <attr name="ok_partCheckedButton" format="reference" />
+        <attr name="ok_errorColor" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="OKSizeTextAppearance">
+        <attr name="ok_largeTextAppearance" format="reference" />
+        <attr name="ok_middleTextAppearance" format="reference" />
+        <attr name="ok_smallTextAppearance" format="reference" />
+        <attr name="ok_xSmallTextAppearance" format="reference" />
+
+        <attr name="ok_largeTextSize" format="dimension" />
+        <attr name="ok_middleTextSize" format="dimension" />
+        <attr name="ok_smallTextSize" format="dimension" />
+        <attr name="ok_xSmallTextSize" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="OKReminderAppearance">
+        <attr name="ok_criticalDrawable" format="reference" />
+        <attr name="ok_criticalIconTint" format="color" />
+        <attr name="ok_criticalBackground" format="color|reference" />
+        <attr name="ok_criticalHeaderTextColor" format="color" />
+        <attr name="ok_criticalBodyTextColor" format="color" />
+        <attr name="ok_criticalEndIconTint" format="color|reference" />
+
+        <!--You can use this style to switch your title image.-->
+        <attr name="ok_alternativeDrawable" format="reference" />
+        <attr name="ok_alternativeIconTint" format="color" />
+        <attr name="ok_alternativeBackground" format="color|reference" />
+        <attr name="ok_alternativeHeaderTextColor" format="color" />
+        <attr name="ok_alternativeBodyTextColor" format="color" />
+        <attr name="ok_alternativeEndIconTint" format="color|reference" />
+
+        <attr name="ok_titleTextSize" format="dimension" />
+        <attr name="ok_bodyTextSize" format="dimension" />
+        <attr name="ok_closeIconTint" format="color" />
+
+        <attr name="ok_reminderStrokeColor" format="color" />
+        <attr name="ok_reminderStrokeWidth" format="dimension" />
+        <attr name="ok_styleIconHeight" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="OKPhoneNumberFormatAppearance">
+        <attr name="ok_countryCodeTextAppearance" format="reference" />
+        <attr name="ok_countryCodeTextColor" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="OKProgressIndicatorAppearance">
+        <!--Space between two items-->
+        <attr name="ok_indicator_horizontalSpace" format="dimension" />
+        <!--Item round corner size-->
+        <attr name="ok_indicator_roundCornerSize" format="dimension" />
+        <!--Indicator height.-->
+        <attr name="ok_indicator_totalHeight" format="dimension" />
+        <!--Item selected color-->
+        <attr name="ok_indicator_activeColor" format="color" />
+        <!--Item selected color-->
+        <attr name="ok_indicator_inactiveColorAlpha" format="float" />
+    </declare-styleable>
+
+    <declare-styleable name="HyperlinkAppearance">
+        <!--hyper link text color-->
+        <attr name="hyper_link_textColor" format="color" />
+        <!--hyper link text size-->
+        <attr name="hyper_link_textWeight" format="integer" />
+        <attr name="hyper_link_xSmallTextSize" format="dimension" />
+        <attr name="hyper_link_smallTextSize" format="dimension" />
+        <attr name="hyper_link_middleTextSize" format="dimension" />
+        <attr name="hyper_link_largeTextSize" format="dimension" />
+        <attr name="hyper_link_showUnderline" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="OKSwitchAppearance">
+        <attr name="ok_switch_smallWidth" format="dimension" />
+        <attr name="ok_switch_smallHeight" format="dimension" />
+
+        <attr name="ok_switch_largeWidth" format="dimension" />
+        <attr name="ok_switch_largeHeight" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="OKTextButtonAppearance">
+        <attr name="customTextButtonType" format="integer" />
+        <attr name="cornerSize" />
+    </declare-styleable>
+
+    <declare-styleable name="OKRegularCellAppearance">
+        <attr name="ok_regular_cell_titleColor" format="color" />
+        <attr name="ok_regular_cell_descriptionColor" format="color" />
+        <attr name="ok_regular_cell_horizontalPadding" format="dimension" />
+        <attr name="ok_regular_cell_verticalPadding" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="OKButtonChipAppearance">
+        <attr name="ok_buttonChip_lgSize" format="reference" />
+        <attr name="ok_buttonChip_mdSize" format="reference" />
+        <attr name="ok_buttonChip_smSize" format="reference" />
+        <attr name="ok_buttonChip_xsSize" format="reference" />
+
+        <!-- primary -->
+        <attr name="ok_buttonChipPrimaryPressedColor" format="color" />
+
+        <attr name="ok_buttonChipPrimaryStrokeNormalColor" format="color" />
+        <attr name="ok_buttonChipPrimaryStrokeSelectedColor" format="color" />
+        <attr name="ok_buttonChipPrimaryNormalStrokeWidth" format="dimension" />
+        <attr name="ok_buttonChipPrimarySelectedStrokeWidth" format="dimension" />
+        <attr name="ok_buttonChipPrimaryTextColor" format="reference|color" />
+
+        <!-- Secondary  -->
+        <attr name="ok_buttonChipSecondaryPressedColor" format="color" />
+        <attr name="ok_buttonChipSecondarySelectedColor" format="color" />
+        <attr name="ok_buttonChipSecondaryTextColor" format="reference|color" />
+    </declare-styleable>
+
+    <!--Alert Banner default appearance-->
+    <declare-styleable name="OKAlertBannerAppearance">
+        <attr name="ok_highlightLeadingDrawable" format="reference" />
+        <attr name="ok_highlightIconTint" format="color" />
+        <attr name="ok_highlightBackground" format="color|reference" />
+        <attr name="ok_highlightHeaderTextColor" format="color" />
+        <attr name="ok_highlightBodyTextColor" format="color" />
+        <attr name="ok_highlightEndIconTint" format="color" />
+
+        <attr name="ok_titleTextSize" />
+        <attr name="ok_bodyTextSize" />
+
+    </declare-styleable>
+</resources>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--ok input field default style-->
+    <style name="Input">
+        <item name="labelOutTextAppearance">@style/TextAppearance</item>
+        <item name="labelInTextAppearance">@style/TextAppearance</item>
+        <item name="contentTextAppearance">@style/TextAppearance</item>
+        <item name="helperTextAppearance">@style/TextAppearance</item>
+        <item name="errorTextAppearance">@style/TextAppearance</item>
+
+        <item name="content_staticColor">@color/transparent</item>
+        <item name="content_activeColor">@color/transparent</item>
+        <item name="content_criticalColor">@color/transparent</item>
+        <item name="content_disableColor">@color/SurfacePrimary</item>
+
+        <item name="staticLayerColor">@color/BorderSecondary</item>
+        <item name="staticOnlyBottomLayerColor">@color/BorderPrimary</item>
+        <item name="activeLayerColor">@color/BorderSelected</item>
+        <item name="criticalLayerColor">@color/SemanticNegative</item>
+        <item name="disableLayerColor">@color/SurfacePrimary</item>
+        <item name="disableOnlyBottomLayerColor">@color/BorderPrimary</item>
+
+        <!--text color in different status.-->
+        <item name="content_staticTextColor">@color/ContentPrimary</item>
+        <item name="content_activeTextColor">@color/ContentPrimary</item>
+        <item name="content_criticalTextColor">@color/ContentPrimary</item>
+        <item name="content_disableTextColor">@color/ContentContrast</item>
+        <item name="content_labelOutTextColor">@color/ContentPrimary</item>
+        <item name="content_labelInTextColor">@color/ContentContrast</item>
+        <item name="content_hintTextColor">@color/ContentContrast</item>
+
+        <item name="cursorColor">@color/ContentPrimary</item>
+        <item name="error_textColor">@color/SemanticNegative</item>
+        <item name="tint">@color/ContentContrast</item>
+
+        <item name="strokeWidth">1.5dp</item>
+        <item name="MDRadius">6dp</item>
+
+        <item name="labelSMTextSize">12sp</item>
+        <item name="contentSMTextSize">14sp</item>
+        <item name="errorSMTextSize">12sp</item>
+        <item name="content_marginSMHorizontal">12dp</item>
+
+        <item name="labelMDTextSize">12sp</item>
+        <item name="contentMDTextSize">14sp</item>
+        <item name="errorMDTextSize">12sp</item>
+        <item name="content_marginMDHorizontal">12dp</item>
+
+        <item name="labelLGTextSize">14sp</item>
+        <item name="contentLGTextSize">15sp</item>
+        <item name="errorLGTextSize">14sp</item>
+        <item name="content_marginLGHorizontal">12dp</item>
+
+        <item name="labelXLTextSize">14sp</item>
+        <item name="contentXLTextSize">16sp</item>
+        <item name="errorXLTextSize">14sp</item>
+        <item name="content_marginXLHorizontal">12dp</item>
+
+        <item name="contentHeight">md</item>
+        <item name="autoScale">true</item>
+        <item name="clearDrawable">@drawable/clear_filled</item>
+        <item name="clearDrawableSize">20dp</item>
+        <item name="clearMiniSize">36dp</item>
+        <item name="passwordChar">"·"</item>
+    </style>
+</resources>

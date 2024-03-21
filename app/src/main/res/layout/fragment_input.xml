@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/BackgroundLv1"
+    android:orientation="vertical"
+    android:paddingHorizontal="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="high Light Input, size = xxl"
+            android:textColor="@color/ContentPrimary" />
+
+        <com.xingchaozhang.androidui.edit.input.Input
+            android:id="@+id/highLightInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:contentHeight="xxl"
+            app:labelText="Title"
+            app:onlyBottomLayer="true" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="high Light Input, size = xl supporting on"
+            android:textColor="@color/ContentPrimary" />
+
+        <com.xingchaozhang.androidui.edit.input.Input
+            android:id="@+id/highLightInput2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:contentHeight="xl"
+            app:labelText="Title"
+            app:onlyBottomLayer="true"
+            app:supportingLayoutId="@layout/layout_input_helper"
+            app:supportingText="on" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="sm 36H/label/outsize/supporting on"
+            android:textColor="@color/ContentPrimary" />
+
+        <com.xingchaozhang.androidui.edit.input.Input
+            android:id="@+id/ok_input_field1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="pahdfiahfoi"
+            app:contentHeight="sm"
+            app:supportingLayoutId="@layout/layout_input_helper"
+            app:supportingText="on" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@color/ContentSecondary" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="md 40H/label/outsize/supporting on"
+            android:textColor="@color/ContentPrimary" />
+
+        <com.xingchaozhang.androidui.edit.input.Input
+            android:id="@+id/ok_input_field2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:contentHeight="md"
+            app:supportingText="on" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@color/ContentSecondary" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="lg 44H/label/outsize/supporting on"
+            android:textColor="@color/ContentPrimary" />
+
+        <com.xingchaozhang.androidui.edit.input.Input
+            android:id="@+id/ok_input_field3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:contentHeight="lg"
+            app:supportingText="on" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@color/ContentSecondary" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="xl 48H/label/outsize/supporting on"
+            android:textColor="@color/ContentPrimary" />
+
+        <com.xingchaozhang.androidui.edit.input.Input
+            android:id="@+id/ok_input_field4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:contentHeight="xl"
+            app:supportingText="on" />
+
+        <com.xingchaozhang.androidui.edit.input.Input
+            android:id="@+id/ok_input_field41"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:contentHeight="xl"
+            app:supportingText="on" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@color/ContentSecondary" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="sm 36H/label/inside/supporting on"
+            android:textColor="@color/ContentPrimary" />
+
+        <com.xingchaozhang.androidui.edit.input.Input
+            android:id="@+id/ok_input_field11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:contentHeight="sm"
+            app:supportingText="on"
+            app:type="inside" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@color/ContentSecondary" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="md 40H/label/inside/supporting on"
+            android:textColor="@color/ContentPrimary" />
+
+        <com.xingchaozhang.androidui.edit.input.Input
+            android:id="@+id/ok_input_field12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:contentHeight="md"
+            app:supportingText="on"
+            app:type="inside" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@color/ContentSecondary" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="lg 44H/label/inside/supporting on"
+            android:textColor="@color/ContentPrimary" />
+
+        <com.xingchaozhang.androidui.edit.input.Input
+            android:id="@+id/ok_input_field13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="label2 outside md"
+            app:contentHeight="md"
+            app:labelText="Title"
+            app:supportingText="on"
+            app:type="outside" />
+
+        <com.xingchaozhang.androidui.edit.input.Input
+            android:id="@+id/lable21"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="label2 md"
+            app:contentHeight="md"
+            app:labelText="Title"
+            app:supportingText="on"
+            app:type="inside2" />
+
+        <com.xingchaozhang.androidui.edit.input.Input
+            android:id="@+id/lable22"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="label2 xl"
+            app:contentHeight="xl"
+            app:labelText="Title"
+            app:supportingText="on"
+            app:type="inside2" />
+
+        <com.xingchaozhang.androidui.edit.input.Input
+            android:id="@+id/lable2Disable"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Label2 Disable"
+            app:contentHeight="xl"
+            app:labelText="Title"
+            app:state="disable"
+            app:supportingText="on"
+            app:type="inside2" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@color/ContentSecondary" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="This is a password view."
+            android:textColor="@color/ContentPrimary" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@color/ContentSecondary" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Input Field api test:"
+            android:textColor="@color/ContentPrimary" />
+
+        <com.xingchaozhang.androidui.edit.input.Input
+            android:id="@+id/input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:contentHeight="md" />
+
+        <com.xingchaozhang.androidui.edit.input.Input
+            android:id="@+id/input_field2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="This is a hint"
+            android:text="AAAAAAA"
+            app:contentHeight="xxl"
+            app:onlyBottomLayer="true" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_set_label_text"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:singleLine="true"
+                android:text="set label text" />
+
+            <Button
+                android:id="@+id/btn_set_error"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_weight="1"
+                android:text="set error text" />
+
+            <Button
+                android:id="@+id/btn_clear_error"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_weight="1"
+                android:text="clear error text" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_add_helper"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="add a helper view" />
+
+            <Button
+                android:id="@+id/btn_replace_function"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_weight="1"
+                android:text="replace function view" />
+
+            <Button
+                android:id="@+id/btn_display_number"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_weight="1"
+                android:text="show or hide number" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_enable"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Set input enable" />
+
+            <Button
+                android:id="@+id/btn_disable"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_weight="1"
+                android:text="Set input disable" />
+
+            <Button
+                android:id="@+id/btn_reset"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_weight="1"
+                android:text="Reset OKInputField" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@color/ContentSecondary" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Phone number formart:"
+            android:textColor="@color/ContentPrimary" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="20dp" />
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>

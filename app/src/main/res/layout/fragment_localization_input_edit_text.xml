@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_random"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:text="Ramdom"
+            android:textAllCaps="false" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:paddingStart="10dp"
+            android:text="Click left button and generate a random number in the range of 0 to 20000 in the text box below."
+            android:textSize="12dp" />
+    </LinearLayout>
+
+    <com.xingchaozhang.androidui.edit.BaseEditText
+        android:id="@+id/edt_random_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Input a number or a string-----long long time ago, story of my life."
+        android:inputType="text"
+        android:lines="1"
+        android:singleLine="true"
+        android:textSize="20sp"
+        app:hintTextSize="16" />
+
+    <com.xingchaozhang.androidui.edit.BaseEditText
+        android:id="@+id/edt_random_text1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Input a number or a string"
+        android:inputType="text"
+        android:lines="1"
+        android:textSize="20sp"
+        android:visibility="gone"
+        app:hintTextSize="20" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="bottom">
+
+        <Button
+            android:id="@+id/btn_plain"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:text="Plain number"
+            android:textAllCaps="false" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:paddingStart="10dp"
+            android:text="Click the left button, and the original data of the upper input box will be displayed in the text box below."
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <com.okinc.uilab.edit.LocalizationNumberEditText
+            android:id="@+id/edt_plain_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:digits="0123456789,."
+            android:inputType="number"
+            android:singleLine="true"
+            android:textSize="24sp"
+            app:autoZoomSize="true"
+            app:hintTextSize="20"
+            app:minTextSize="12"
+            app:narrowTextSize="2" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="bottom">
+
+        <Button
+            android:id="@+id/btn_localized"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:text="Localized Number"
+            android:textAllCaps="false" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:paddingStart="10dp"
+            android:text="Click the button on the left, and the localized data in the upper input box will be displayed in the text box below."
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <com.okinc.uilab.edit.LocalizationNumberEditText
+            android:id="@+id/edt_localized_text"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:digits="0123456789,."
+            android:inputType="number"
+            android:singleLine="true" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="The input text box above can also be used for formatting tests. By default, it retains 2 decimal places, supports the thousandth, and the language environment is the system default."
+        android:textSize="12sp" />
+</LinearLayout>
